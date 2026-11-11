@@ -7,7 +7,7 @@
 ```
 sms-spam/
 ├── data/
-│   └── spam.csv          ← 自己下載放這裡
+│   └── spam.csv          ← 資料集下載檔放這裡
 ├── spam_model.py         ← 共用邏輯：載入資料、前處理、模型、關鍵字解釋
 ├── train.py              ← 訓練、比較三種模型、存下最佳模型
 ├── app.py                ← Gradio 網頁
