@@ -65,7 +65,7 @@ python -m pytest -v
 網頁執行時會寫入 `app.log`，每次操作一行，包含操作編號、狀態（ok／empty／too_long／unknown／error）、
 字數、垃圾機率與耗時。**不記錄簡訊內容**。
 
-## 部署到 Hugging Face Spaces（免費）
+## 部署到 Hugging Face Spaces（SDK因2026費用政策改為Gradio須付費,若要實驗可考慮使用本機環境)
 
 1. 註冊 Hugging Face 帳號 → 右上角 **New Space**
 2. SDK 選 **Gradio**，硬體選免費的 CPU
